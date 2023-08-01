@@ -1,0 +1,11 @@
+.hero {
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  color: var(--retro-font-color);
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1575365717666-1a84be3fd104?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-position: center;
+  background-size: cover;
+}

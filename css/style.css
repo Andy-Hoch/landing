@@ -1,0 +1,51 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('./components/button.css');
+@import url('./components/card.css');
+@import url('./components/container.css');
+@import url('./components/footer.css');
+@import url('./components/hero.css');
+/* Utilities */
+:root {
+  --main-bg-color: rgb(59, 59, 59);
+  --retro-font-color: #cdfffd;
+  --retro-primary-color: #A084E8;
+  --retro-secondary-color: #6F61C0;
+  --lost-color: #D5FFE4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Handjet', cursive;
+  font-weight: 400;
+  background-color: var(--lost-color);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Handjet', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--retro-font-color);
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: var(--retro-font-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.how {
+  padding: 50px;
+}
